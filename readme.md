@@ -246,6 +246,25 @@ http://localhost:5173
 | Deployment       | Ready  |
 
 ---
+## 📸 Application Screenshots
+
+> All screenshots are stored inside the `/screenshots` folder of this repository.
+
+### 🔹 Employees Management
+![Employees Page](./screenshots/Screenshot%20(913).png)
+![Edit Employee](./screenshots/Screenshot%20(917).png)
+
+### 🔹 Teams Management
+![Teams Page](./screenshots/Screenshot%20(914).png)
+![Assign / Unassign Employee](./screenshots/Screenshot%20(918).png)
+
+### 🔹 Logs & Activity Tracking
+![Logs Page](./screenshots/Screenshot%20(915).png)
+
+### 🔹 Authentication & Dashboard
+![Dashboard](./screenshots/Screenshot%20(912).png)
+![Login](./screenshots/Screenshot%20(911).png)
+
 
 ## Conclusion
 
