@@ -57,12 +57,14 @@ export default function AssignModal({ team, employees, onClose, onUpdated }) {
         >
           <option value="">Select Employee</option>
           {employees
-            .filter((emp) => !assignedIds.includes(emp.id))
-            .map((emp) => (
-              <option key={emp.id} value={emp.id}>
-                {emp.first_name} {emp.last_name}
-              </option>
-            ))}
+  .filter((emp) => !assignedIds.includes(emp.id))
+  .map((emp) => (
+    <option key={emp.id} value={emp.id}>
+      {(emp.first_name || emp.firstName || "")} {(emp.last_name || emp.lastName || "")}
+      {(!emp.first_name && !emp.firstName) ? emp.email : ""}
+    </option>
+))}
+
         </select>
 
         <button
